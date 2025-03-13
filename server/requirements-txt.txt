@@ -20,7 +20,7 @@ together>=0.2.3
 
 # Document loading and processing
 python-docx>=0.8.11
-csv>=1.0
+# csv>=1.0 // no need
 pandas>=2.0.0
 
 # Environment management
