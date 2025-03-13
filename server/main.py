@@ -13,7 +13,7 @@ from langchain_community.vectorstores import Chroma
 from langchain.retrievers import ContextualCompressionRetriever
 from langchain.retrievers.document_compressors import LLMChainExtractor
 from langchain_community.document_loaders import TextLoader, DirectoryLoader, CSVLoader, PyPDFLoader
-os.getenv["TOGETHER_API_KEY"]
+os.getenv("TOGETHER_API_KEY")
 
 
 class SimpleTracer:
